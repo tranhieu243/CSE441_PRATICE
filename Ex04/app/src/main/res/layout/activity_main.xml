@@ -58,7 +58,7 @@
                 android:layout_height="100dp"
                 android:layout_weight="1"
                 android:background="#8BC34A"
-                android:text="Convert To Celsius"
+                android:text="Convert To Fahrenheit"
                 android:textColor="#000000"
                 android:textSize="20sp" />
 
@@ -69,7 +69,7 @@
                 android:layout_marginLeft="10px"
                 android:layout_weight="1"
                 android:background="#8BC34A"
-                android:text="Convert To Fahrenheit"
+                android:text="Convert To Celsius"
                 android:textColor="#000000"
                 android:textSize="20sp" />
         </LinearLayout>
