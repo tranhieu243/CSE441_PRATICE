@@ -11,18 +11,20 @@
         android:id="@+id/txt_main"
         android:layout_width="410dp"
         android:layout_height="89dp"
+        android:background="#00BCD4"
         android:text="MAIN ACTIVITY"
         android:textAlignment="center"
+        android:textColor="#000000"
         android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.002" />
+        app:layout_constraintVertical_bias="0.001" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btn_changeToChild"
         android:layout_width="215dp"
         android:layout_height="43dp"
         android:text="Open Child Activity"
