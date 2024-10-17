@@ -23,24 +23,6 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0" />
 
-    <TextView
-        android:id="@+id/txtResult"
-        android:layout_width="405dp"
-        android:layout_height="44dp"
-        android:layout_marginStart="94dp"
-        android:layout_marginTop="87dp"
-        android:layout_marginEnd="259dp"
-        android:layout_marginBottom="625dp"
-        android:background="#009688"
-        android:textAlignment="center"
-        android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.268"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
-
     <Button
         android:id="@+id/btnBack"
         android:layout_width="wrap_content"
@@ -57,4 +39,19 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/edtResult"
+        android:layout_width="408dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="622dp"
+        android:ems="10"
+        android:inputType="text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
