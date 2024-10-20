@@ -14,6 +14,7 @@
         android:layout_height="wrap_content"
         android:hint="Selected here"
         android:background="#8A9D6F"
+        android:textSize="24dp"
         />
     <GridView
         android:id="@+id/gridView1"
